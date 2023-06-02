@@ -9,14 +9,6 @@
     "skipLibCheck": true,
     "outDir": "dist",
     "baseUrl": ".",
-    "paths": {
-      "common": ["../common"]
-    }
   },
   "exclude": ["node_modules", ".git", "dist"],
-  "references": [
-    { 
-      "path": "../common/tsconfig.json"
-    }
-  ]
 }

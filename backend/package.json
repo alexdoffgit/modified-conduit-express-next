@@ -19,11 +19,12 @@
     "dotenv": "^16.0.3",
     "dotenv-expand": "^10.0.0",
     "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
     "passport": "^0.6.0",
     "passport-local": "^1.0.0",
     "slonik": "^33.3.1",
-    "zod": "^3.21.4",
-    "common": "^1.0.0"
+    "uuid": "^9.0.0",
+    "zod": "^3.21.4"
   },
   "devDependencies": {
     "@types/cors": "^2.8.13",
@@ -31,6 +32,7 @@
     "@types/node": "^17.0.38",
     "@types/passport": "^1.0.12",
     "@types/passport-local": "^1.0.35",
+    "@types/uuid": "^9.0.1",
     "dbmate": "^2.3.0",
     "nodemon": "^2.0.16",
     "ts-node": "^10.9.1",
